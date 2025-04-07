@@ -1,7 +1,9 @@
 package com.example.practicafinal;
 
 import android.content.pm.ActivityInfo;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,4 +25,21 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void pulsarMapa(View v) {
+
+        findViewById(R.id.button2).setVisibility(View.VISIBLE);
+        findViewById(R.id.button3).setVisibility(View.VISIBLE);
+        findViewById(R.id.button4).setVisibility(View.VISIBLE);
+        findViewById(R.id.button5).setVisibility(View.VISIBLE);
+        findViewById(R.id.textView2).setVisibility(View.VISIBLE);
+        findViewById(R.id.textView3).setVisibility(View.VISIBLE);
+        findViewById(R.id.textView4).setVisibility(View.VISIBLE);
+        findViewById(R.id.editTextText).setVisibility(View.VISIBLE);
+
+
+    }
+
+
+
 }
